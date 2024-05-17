@@ -47,9 +47,9 @@ const Header = ({ dark }) => {
                 </li>
               </ul>
             </li>
-            <li className={`${activeMenuFuntion(["about"])}`}>
+            {/* <li className={`${activeMenuFuntion(["about"])}`}>
               <Link href="about">About</Link>
-            </li>
+            </li> */}
             <li className={`${activeMenuFuntion(["services"])}`}>
               <Link href="services">Services</Link>
             </li>
